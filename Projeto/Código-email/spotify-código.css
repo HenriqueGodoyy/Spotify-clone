@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+:root {
+  --color0: #282828/* Background color */;
+  --color1: #020202 /* Background color */;
+  --color2: white /* Text color */;
+  --color3: #090909 ;
+  --color4: #1ED760; /* Spotify green*/;
+}
+
+
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+h2 {
+    color: var(--color2);
+    line-height: 1,5;
+    margin-bottom: 30px;
+    font-size: 22px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.email-container {
+  padding: 0px 100px 90px 100px;
+  border-radius: 10px;
+  width: 350px;
+  margin: 2% auto;
+  color: grey;
+  max-width: 400px;
+}
+
+img#logo {
+    width: 27px;
+    height: 27px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    background-color: var(--color2);
+    border-radius: 100%;
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.code-input {
+  width: 45px;
+  height: 55px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #ffffff50;
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--color2);
+  outline: none;
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.code-input:focus {
+  border-color: var(--color2);
+}
+
+.code-bnt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 125px;
+  max-width: 200px;
+  padding: 8px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  
+  background-color: transparent;
+  color: var(--color2);
+  border: 1px solid #878787;
+  border-radius: 500px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.code-bnt:hover {
+  border-color: var(--color2);
+  transform: scale(1.03);
+}
+
+.login-bnt1 {
+  width: 350px;
+  padding: 12px 20px;
+  height: 45px;
+  background-color: var(--color4);
+  border: none;
+  border-radius: 25px;
+  color: var(--color1);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px auto;
+  transition: background-color 0.3s;
+  align-items: center;
+  display: block;
+}
+
+
+.login-bnt1:hover {
+  background-color: #53cf7e;
+}
+
+a{
+  padding-top: 30px;
+  text-decoration: none;
+  color: var(--color2);
+  font-size: 15px;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold
+}
+
+a:hover{
+  transform: scale(1.03);
+}
