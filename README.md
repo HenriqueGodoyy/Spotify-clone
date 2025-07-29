@@ -22,4 +22,32 @@ O objetivo é simular a interface visual da plataforma de streaming, e em breve 
 
 *(Em breve: JavaScript, API de músicas, Node.js)*
 
+---
+
+## 🇺🇸 English Version Below
+
+# 🎧 Spotify Clone (In Development)
+
+This is a personal project in progress, where I'm building a **simplified clone of Spotify** focused on learning and practicing **HTML** and **CSS**.
+
+The goal is to simulate the visual interface of the streaming platform, and soon add interactive features using **JavaScript** and other technologies.
+
+---
+
+## 📌 Project Status
+
+🚧 **In development**  
+✔️ Base structure in HTML completed  
+🎨 CSS styling in progress  
+🧠 Dynamic features will be added soon (JavaScript)
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Grid)
+
+*(Coming soon: JavaScript, Music API, Node.js)*
+
 
